@@ -1,2 +1,2 @@
 # globalmusicmejorado.github.io
-Integrate proyect 
+Integrate project 
