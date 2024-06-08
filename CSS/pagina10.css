@@ -185,7 +185,8 @@
     padding: 0;
     margin: 0;
 }
-.copyright{
+.copyright
+{
     position: fixed;
     display: flex;
     padding-top: 20%;
