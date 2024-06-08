@@ -134,6 +134,15 @@ strong {
     width:400px;
 }
 
+a{
+    text-decoration: none;
+    color:#1b8a8b;
+}
+
+a:hover{
+    color: #219b9e;
+}
+
 
 
 .wide-table td 
@@ -145,12 +154,16 @@ strong {
 }
 h1.centered-text {
     font-size: 42px;
+    text-decoration: none;
+    
 }
 h1.centered-text1 {
     font-size: 20px;
+    text-decoration: none;
 }
 p.centered-text {
     font-size: 22px;
+    
 }
 
 @media (min-width: 1024px) {
