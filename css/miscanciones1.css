@@ -304,7 +304,18 @@ h2{
     flex-wrap: wrap;
     min-width: 250px;
 }
-
+.checkbtn{
+	display: flex;
+	left: 58%;
+	margin-top: 2.5rem;
+}
+.checkbtn i{
+	margin-left: 68%;
+	color: var(---green);
+}
+.checkbtn i:hover{
+	color: var(---black);
+}
 .title-playlist {
 	margin-top: 1rem;
 	font-size: 2.4rem;
