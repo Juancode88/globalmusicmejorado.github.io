@@ -285,7 +285,18 @@ h2{
 	flex-direction: column;
 	gap: 2rem;
 }
-
+.checkbtn{
+	display: flex;
+	left: 58%;
+	margin-top: 2.5rem;
+}
+.checkbtn i{
+	margin-left: 68%;
+	color: var(---green);
+}
+.checkbtn i:hover{
+	color: var(---black);
+}
 .title-playlist {
 	margin-top: 1rem;
 	font-size: 2.4rem;
@@ -615,7 +626,7 @@ input[type="text"] {
 	}
 	.footer{
 		width: 70%;
-		margin-left: 30%;
+		margin-left: 30%; 
 	}
 	.footer h3 {
 		font-size: 1.2rem;
