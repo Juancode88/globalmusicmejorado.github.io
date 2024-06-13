@@ -291,7 +291,7 @@ h2{
 	margin-top: 2.5rem;
 }
 .checkbtn i{
-	margin-left: 68%;
+	margin-left: 71%;
 	color: var(---green);
 }
 .checkbtn i:hover{
@@ -694,6 +694,9 @@ h2{
 	.navbar.active {
 		display: block;
 	}
+	#check:checked ~ .main-content{
+		display: static;
+	}
 	.container-card-concentracion,
 	.container-card-spotify-playlists {
 	grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
@@ -817,6 +820,9 @@ h2{
 	  display: block;
 	  z-index: 1;
 	}
+	#check:checked ~ .main-content{
+		display: static;
+	}
 	.title-playlist {
 	  margin-top: 0.1rem;
 	  font-size: 1.6rem;
@@ -938,6 +944,9 @@ h2{
 	  width: 43%;
 	  display: block;
 	  height: 115rem;
+	}
+	#check:checked ~ .main-content{
+		display: static;
 	}
 	.title-playlist {
 	  margin-top: 0.1rem;
