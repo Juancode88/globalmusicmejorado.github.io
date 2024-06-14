@@ -762,6 +762,9 @@ font-style: normal;
 color: #5e5e5e;
 font-size: 8px;
 }
+.audio{
+  margin-top: 24%;
+}
 /** --------ZONA DE REPRODUCCIÒN ------**/
 .reproduccion {
 grid-area: reproduccion;
