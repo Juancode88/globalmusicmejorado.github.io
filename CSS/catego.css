@@ -30,7 +30,7 @@ body {
 /*               TOPBAR               */
 .topbar {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	padding: 1rem 2rem;
 	background-image:linear-gradient(90deg,#000000, rgb(139 233 249));
@@ -127,9 +127,33 @@ h2{
 	transform: scale(1.04);
 }
 .circle-chevron {
-    margin-top: -10px;
-	font-size: 32px;
-	color: #5e5e5e;
+    font-size: 32px;
+    color: #918d8d;
+
+}
+
+.bx-search-alt-2 {
+    font-size: 24px;
+    color: #918d8d;
+}
+
+.main-input {
+	display: flex;
+	gap: 12px;
+	align-items: end;
+	margin-top: -121px;
+}
+
+.main-input-container {
+	display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    background: #fff;
+    border-radius: 50px;
+    padding: 10px 15px;
+    gap: 5px;
+    width: 300px;
 }
 
 /*               SIDEBAR              */
@@ -285,7 +309,18 @@ h2{
 	flex-direction: column;
 	gap: 2rem;
 }
-
+.checkbtn{
+	display: flex;
+	left: 58%;
+	margin-top: 2.5rem;
+}
+.checkbtn i{
+	margin-left: 68%;
+	color: var(---green);
+}
+.checkbtn i:hover{
+	color: var(---black);
+}
 .title-playlist {
 	margin-top: 1rem;
 	font-size: 2.4rem;
@@ -444,8 +479,10 @@ h2{
 	height: 8rem;
 }
 input[type="text"] {
-    border-radius: 20px;
-    height: 26px;
+    border: none;
+    outline: none;
+    width: 100%;
+	font-size: 20px;
 }
 
 .banner-bottom .content {
@@ -615,7 +652,7 @@ input[type="text"] {
 	}
 	.footer{
 		width: 70%;
-		margin-left: 30%;
+		margin-left: 30%; 
 	}
 	.footer h3 {
 		font-size: 1.2rem;
